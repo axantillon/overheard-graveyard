@@ -42,9 +42,9 @@ export default function Home() {
               <Image src={Logo} object-fit="contain" alt=''/>
             </div>
             <span className='text-center text-xs md:text-sm'> You will be dearly remembered,  </span> 
-            <span className='text-center text-xs md:text-sm'> and always honoured at 224 E 83rd St., New York, NY where your plaque hangs to this day.</span>
-            <div className="mt-10 w-full space-y-6 text-sm md:text-base">
-              <p> Once a blooming social network with a staggering <b>39 unique users</b>, <i>Overheard.me</i> started out as an entry to a hackathon run by the team @OnDeck, on the <b>9th of July, 2021.</b> A team from the legendary <b>Edyfi Brownstone House</b> took on the project and <b>developed Overheard in just two days.</b></p>
+            <span className='text-center text-xs md:text-sm'> and <b>always honoured at 224 E 83rd St., New York, NY</b> where your plaque hangs to this day.</span>
+            <div className="mt-10 w-full space-y-6 text-sm md:text-base text-justify">
+              <p> Once a blooming social network with a staggering <b>39 unique users</b>, <i>Overheard.me</i> started out as an entry to a hackathon run by the team @OnDeck, on the <b>9th of July, 2021.</b> A team from the legendary <b>Edyfi Brownstone House</b> took on the project and <b>developed Overheard in just two days. Needless to say this would never have been possible without the support from the ~14 other people livig at the house.</b></p>
               <p>{"Here's"} to the amazing team that made this happen:</p>
               <div className="flex flex-wrap items-center justify-center w-full">
                 <div className="flex flex-col justify-center items-center space-y-2 mx-2 pt-4">
