@@ -45,7 +45,7 @@ export default function Home() {
             <span className='text-center text-xs md:text-sm'><b>always honoured at 224 E 83rd St., NY</b></span>
             <span className='text-center text-xs md:text-sm'> where your plaque hangs to this day.</span>
             <div className="mt-10 w-full space-y-6 text-sm md:text-base text-justify">
-              <p> Once a blooming social network with a staggering <b>39 unique users</b>, <i>Overheard.me</i> started out as an entry to a hackathon run by the team @OnDeck, on the <b>9th of July, 2021.</b> A team from the legendary <b>Edyfi Brownstone House</b> took on the project and <b>developed Overheard in just two days.</b> Needless to say this would never have been possible without the support from the ~14 other people livig at the house.</p>
+              <p> Once a blooming social network with a staggering <b>39 unique users</b>, <i>Overheard.me</i> started out as an entry to a hackathon run by the team @OnDeck, on the <b>9th of July, 2021.</b> A team from the legendary <b>Edyfi Brownstone House</b> took on the project and <b>developed Overheard in just two days.</b> Needless to say this would never have been possible without the support from the ~14 other people living at the house.</p>
               <p>{"Here's"} to the amazing team that made this happen:</p>
               <div className="flex flex-wrap items-center justify-center w-full">
                 <div className="flex flex-col justify-center items-center space-y-2 mx-2 pt-4">
