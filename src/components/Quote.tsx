@@ -17,7 +17,7 @@ export const Quote: FC<{quote: QuoteType}> = ({quote}) => {
                 <div className="relative flex items-center justify-center h-10 md:h-12 w-10 md:w-12">
                     <Image onError={() => setSrc("/default_user.png")} className="rounded-full h-12 w-12" src={src} fill object-fit="cover" alt=''/>
                 </div>
-                <div className="flex flex-col justify-around w-full pr-6 space-y-2">
+                <div className="flex flex-col justify-around w-full pl-6 space-y-2">
                     <span className="text-xs md:text-base font-semibold">{`"${quote.content}"`}</span>
                     <span className="text-xs md:text-base text-stone-400">{`-${quote.signature} @${quote.quotee}`}</span>
                 </div>
