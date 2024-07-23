@@ -11,7 +11,7 @@ export const Quote: FC<{quote: QuoteType}> = ({quote}) => {
         <div className="flex flex-col w-full px-8 py-4 space-y-6 bg-white rounded-xl">
             <div className="flex items-start justify-between w-full">
                 <span className="text-xxs md:text-xs text-stone-400 italic"><b>@{quote.author}</b> overheard</span>
-                <span className="text-xxs md:text-xs text-stone-400">{moment(quote.date_created).format("MMM D YYYY")}</span>
+                <span className="text-xxs md:text-xs text-stone-400">{moment(quote.date_created).format("MMM D YYYY, h:mma")}</span>
             </div>
             <div className="flex items-center min-h-[4rem] w-full">
                 <div className="relative flex items-center justify-center h-10 md:h-12 w-10 md:w-12">
